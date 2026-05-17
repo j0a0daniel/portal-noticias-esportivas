@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+header {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-left: 30px;
+}
+
+nav>ul {
+    display: flex;
+    /* Permite que os itens do menu sejam exibidos em linha */
+    justify-content: center;
+    /* Centraliza os itens do menu horizontalmente */
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #4c4c4c;
+}
+
+#menu {
+    position: relative;
+}
+
+#submenu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #282828;
+    padding: 10px;
+    line-height: 1.3;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -10px;
+}
+
+#menu:hover #submenu {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+#contato {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+#ouvidoria {
+    text-align: center;
+    font-weight: bolder;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.3;
+    text-align: justify;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+}
+
+article h2 {
+    color: #787777;
+}
+
+article p {
+    line-height: 1.3;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+aside {
+    margin-top: 10px;
+    font-size: 0.8em;
+    background-color: #333333b7;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
